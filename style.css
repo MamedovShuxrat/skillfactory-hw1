@@ -140,18 +140,20 @@ body {
 }
 
 .cards {
-    padding: 90px 0 135px;
+    padding: 90px 135px 135px;
     text-align: center;
 }
 
-.cards__title {
+.cards__title,
+.blogs__title{
     font-size: 32px;
     line-height: 38px;
     color: #000;
     margin-bottom: 31px;
 }
 
-.cards__desc {
+.cards__desc,
+.blogs__subtitle {
     font-size: 18px;
     line-height: 135.94%;
     color: #000;
@@ -255,4 +257,50 @@ body {
 .start__btn:hover{
     background-color: #000;
     color: #fff;
+}
+
+.blogs{
+    padding: 90px 135px 135px;
+    text-align: center;
+}
+
+.blogs__author-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+/* 
+.blogs__author-pic{
+    max-width: 30%;
+} */
+
+.blogs__author-img{
+    display: block;
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.blogs__author-content{
+    text-align: left;
+    padding: 63px 200px 49px 73px;
+    background-color: #000;
+    color: #fff;
+}
+
+.blogs__author-name{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.blogs__author-message{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 80px;    
+}
+
+.blogs__author-read-more{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
 }
